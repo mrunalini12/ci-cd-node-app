@@ -1,13 +1,13 @@
-
-
 const express = require('express');
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 3000;
+
+// Remove the duplicate listen function
 
 app.get('/', (req, res) => {
   res.send('Hello from CI/CD pipeline!');
 });
 
-app.listen(port, () => {
-  console.log(`App is running on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
