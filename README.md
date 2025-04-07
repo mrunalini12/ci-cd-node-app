@@ -50,7 +50,7 @@ DOCKER_PASSWORD	Docker Hub access token
 Author
 Mrunalini
 https://github.com/mrunalini12
-![Screenshot from 2025-04-07 21-11-43](https://github.com/user-attachments/assets/4445e861-8764-4e4a-af42-cfe159197f33)
+
 
 
 
